@@ -1,0 +1,11 @@
+.text_turquoise {
+    color:  rgb(37, 216, 156);
+}
+
+.bg_aquamarine {
+    background-color: rgb(89, 253, 198);
+}
+
+.fit_content {
+    width: fit-content;
+}

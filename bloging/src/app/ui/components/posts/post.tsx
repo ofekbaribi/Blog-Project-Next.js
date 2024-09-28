@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Component({ id, title, content, date }: { id: string, title: string, content: string, date: string }) {
     return (
-        <div key={id} className="border border-gray-200 p-4 my-4">
+        <div key={id} className="border border-gray-400 p-4 my-4">
             <Link href={`/blog/post/${id}`}>
                 <h2>{title}</h2>
             </Link>
