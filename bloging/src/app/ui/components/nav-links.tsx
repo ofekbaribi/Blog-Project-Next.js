@@ -1,4 +1,5 @@
 'use client';
+
 import {
   UserGroupIcon,
   HomeIcon,
@@ -23,8 +24,9 @@ const links = [
   { name: 'Contact', href: '/blog/contact', icon: EnvelopeIcon },
 ];
 
-export default async function NavLinks() {
+export default function NavLinks() {
   const pathname = usePathname();
+
   return (
     <>
       {links.map((link) => {
@@ -45,7 +47,6 @@ export default async function NavLinks() {
           </Link>
         );
       })}
-
     </>
   );
 }
