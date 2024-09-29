@@ -1,23 +1,18 @@
-import { posts } from '@/app/lib/placeholder-data';
-import Post from '@/app/ui/components/posts/post';
+import { notFound } from 'next/navigation';
+// import { posts } from '@/app/lib/placeholder-data';
+import Post from '@/app/ui/components/posts/Post';
+import { getPosts } from '@/app/lib/data';
 
-export default function Page({ params }: { params: { id: string } }) {
-  const post = posts.find((post) => post.id === params.id);
+export default async function Page({ params }: { params: { id: string } }) {
+  const posts = await getPosts();
+  const post = posts?.find((post) => post.id === params.id); 
 
-  // Check if post exists before rendering
   if (!post) {
-    return <p>Post not found</p>;
+    notFound();
   }
-
   return (
     <>
       <h1>Post</h1>
-      <Post
-        id={post.id || 'default-id'}
-        title={post.title || 'Untitled'}
-        content={post.content || 'No content available'}
-        date={new Date(parseInt(post.date || '0')).toLocaleDateString()}
-      />
-    </>
-  );
+      {post && <Post id={post.id} title={post.title} content={post.content} date={post.date} />}
+    </>)
 }
