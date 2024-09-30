@@ -3,24 +3,31 @@ import React from 'react';
 export default function Page() {
   return (
     <div>
-      <h1 className="text-green-600">Contact</h1>
+      {/* Title for the Contact page */}
+      <h2 className="text-3xl mb-4 text-emerald-400">Contact Us</h2>
+      
+      {/* Introduction paragraph about contacting the organization */}
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, architecto natus,
-        cumque laborum, error consequuntur eaque expedita numquam eveniet quas sunt
-        possimus eligendi minus omnis sapiente sequi cum magni distinctio?
+        If you have any questions, concerns, or feedback, feel free to reach out to us. 
+        We value open communication and are always here to assist you in any way possible.
+        Don't hesitate to contact us using the information below!
       </p>
+
       <div>
+        {/* Subheading for the contact section */}
         <h2>Get in Touch</h2>
+
+        {/* Contact information listed with custom bullet points */}
         <ul style={{ listStyleType: "square" }}>
           <li>
-
-            <span>Email: <a href="mailto:contact@example.com">contact@example.com</a></span>
+            {/* Email address for inquiries */}
+            <span>Email: <a href="mailto:contact@bloging.com">contact@bloging.com</a></span>
           </li>
           <li>
-            <span>Website: <a href="https://www.example.com">www.example.com</a></span>
+            {/* Website link for more information */}
+            <span>Website: <a href="https://blog-project-next-js-5gzq-6em0hr6nu-ofek-baribis-projects.vercel.app/">www.bloging.com</a></span>
           </li>
         </ul>
-
       </div>
     </div>
   );

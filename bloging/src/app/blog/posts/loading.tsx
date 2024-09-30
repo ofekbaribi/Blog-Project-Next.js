@@ -1,13 +1,8 @@
-import { PostsSkeleton } from "@/app/ui/components/skeletons";
+import { PostsSkeleton } from "@/app/ui/components/skeletons"; // Importing the skeleton component for loading state
 
-// export default function Loading() {
-//   return (
-//     <div className="loading">
-//       <h2>Loading...</h2>
-//     </div>
-//   );
-// }
-
+// The Loading component is used to display a skeleton placeholder
+// while the actual posts are being fetched
 export default function Loading() {
-  return <PostsSkeleton />
+  // Return the skeleton component to indicate that the data is loading
+  return <PostsSkeleton />;
 }
