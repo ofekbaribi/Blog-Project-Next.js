@@ -6,7 +6,7 @@ import { PencilSquareIcon } from '@heroicons/react/24/outline'; // Importing ico
 
 export default async function Page() {
   // Connecting to the database
-  const client = await connectToDB();
+  await connectToDB();
   // Fetching all posts
   const posts = await getPosts();
   // Getting the current session (user authentication)

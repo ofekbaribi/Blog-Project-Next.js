@@ -4,7 +4,6 @@ import { auth } from "../../../../../auth.config"; // Importing authentication c
 import {
   DropdownMenu, // Component for the dropdown menu
   DropdownMenuContent, // The content of the dropdown (appears on trigger)
-  DropdownMenuItem, // Individual items within the dropdown
   DropdownMenuLabel, // Label at the top of the dropdown menu
   DropdownMenuTrigger // Component to trigger the dropdown (like a button or avatar)
 } from "@/app/ui/components/dropdown-menu"; // Importing components for the dropdown menu
