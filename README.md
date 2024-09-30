@@ -2,13 +2,14 @@
 
 This project is an **AI-driven blogging platform** created to learn and explore **Next.js** and the capabilities of **Server-Side Rendering (SSR)**. The platform allows users to generate AI-assisted blog posts, manage authentication, and interact with a seamless user experience using advanced **Next.js** features like file-based routing, API routes, dynamic and static rendering, caching, and more.
 
-Check out the project [here](https://github.com/ofekbaribi/Blog-Project-Next.js).
 
 ## Screenshots
 
-<!-- Add screenshots of your app here. Example: -->
 ![Home Page](./screenshots/homepage.png)
-![AI Content Generation](./screenshots/ai-generation.png)
+![AI Content Generation](./screenshots/post.png)
+![posts](./screenshots/posts.png)
+![Posts Mobile](./screenshots/postsMobile.png)
+![HomePage Mobile](./screenshots/homepageMobile.png)
 
 ## Features
 
