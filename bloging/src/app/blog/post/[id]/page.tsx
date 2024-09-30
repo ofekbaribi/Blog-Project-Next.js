@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation'; // Importing the Next.js function to handle 404 page redirection
-import Post from '@/app/ui/components/posts/Post'; // Importing the Post component to display a single post
+import Post from '@/app/ui/components/posts/post'; // Importing the Post component to display a single post
 import { getPosts } from '@/app/lib/data'; // Importing a function to retrieve posts from a data source
 
 // Async function to handle rendering of the post page based on the dynamic ID passed in the URL

@@ -1,5 +1,5 @@
 import Link from "next/link"; // Importing Link for navigation in Next.js
-import Post from '@/app/ui/components/posts/Post'; // Importing the Post component to display individual posts
+import Post from '@/app/ui/components/posts/post'; // Importing the Post component to display individual posts
 import { connectToDB, getPosts } from '@/app/lib/data'; // Importing helper functions for database connection and fetching posts
 import { auth } from "../../../../auth.config"; // Importing authentication configuration
 import { PencilSquareIcon } from '@heroicons/react/24/outline'; // Importing icons from Heroicons for the button
