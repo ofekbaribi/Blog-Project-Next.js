@@ -2,14 +2,21 @@
 
 This project is an **AI-driven blogging platform** created to learn and explore **Next.js** and the capabilities of **Server-Side Rendering (SSR)**. The platform allows users to generate AI-assisted blog posts, manage authentication, and interact with a seamless user experience using advanced **Next.js** features like file-based routing, API routes, dynamic and static rendering, caching, and more.
 
-
 ## Screenshots
 
 ![Home Page](./screenshots/homepage.png)
+
 ![AI Content Generation](./screenshots/post.png)
+
 ![posts](./screenshots/posts.png)
-![Posts Mobile](./screenshots/postsMobile.png)
-![HomePage Mobile](./screenshots/homepageMobile.png)
+
+<p align="center">
+  <img src="./screenshots/homepageMobile.png" alt="HomePage Mobile" />
+</p>
+
+<p align="center">
+  <img src="./screenshots/postsMobile.png" alt="Posts Mobile" />
+</p>
 
 ## Features
 
@@ -62,4 +69,3 @@ The project is deployed on **Vercel**, which offers seamless integration with Ne
 4. Deploy the app.
 
 Vercel will automatically build and deploy your Next.js project.
-
